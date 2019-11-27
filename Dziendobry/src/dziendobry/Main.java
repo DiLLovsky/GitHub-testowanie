@@ -5,6 +5,8 @@
  */
 package dziendobry;
 
+import java.util.Scanner;
+
 /**
  *
  * @author student
@@ -16,6 +18,13 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        System.out.print("We coś napisz: ");
+        String napis = scan.nextLine();
+        napis = napis.replaceAll(" ", "*").toLowerCase();
+        System.out.println(napis);
+        
+        
     }
     
 }
