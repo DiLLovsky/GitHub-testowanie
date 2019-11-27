@@ -9,7 +9,7 @@ package dziendobry;
  *
  * @author student
  */
-public class Dziendobry {
+public class Main {
 
     /**
      * @param args the command line arguments
