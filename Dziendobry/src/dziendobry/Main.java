@@ -5,6 +5,8 @@
  */
 package dziendobry;
 
+import java.util.Scanner;
+
 /**
  *
  * @author student
@@ -16,6 +18,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.print("Podaj liczbe pliska: ");
+        Scanner sc = new Scanner(System.in);
+        int liczba = sc.nextInt();
+        System.out.println("Twoja liczba to " + liczba);
     }
     
 }
