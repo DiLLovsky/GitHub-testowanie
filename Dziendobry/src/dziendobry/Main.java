@@ -21,7 +21,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.print("We coś napisz: ");
         String napis = scan.nextLine();
-        napis = napis.replaceAll(" ", "*").toLowerCase();
+        napis = napis.replaceAll(" ", "Dawid Debil").toLowerCase();
         System.out.println(napis);
         
         
